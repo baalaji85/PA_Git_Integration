@@ -1,13 +1,13 @@
 {
 	"@type":"Dimension",
-	"Name":"}tp_jobs",
+	"Name":"Period",
 	"AllLeavesHierarchyName":"",
 	"DefaultHierarchy":
 	{
-		"@id":"Dimensions('}tp_jobs')/Hierarchies('}tp_jobs')"
+		"@id":"Dimensions('Period')/Hierarchies('Period')"
 	},
 	"Hierarchies@Code.links":
 	[
-		"}tp_jobs.hierarchies/}tp_jobs.json"
+		"Period.hierarchies/Period.json"
 	]
 }
