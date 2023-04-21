@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Sales Measure",
+	"Elements":
+	[
+		{
+			"Name":"Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Unit Price",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}
