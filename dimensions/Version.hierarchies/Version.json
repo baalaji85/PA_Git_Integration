@@ -1,0 +1,49 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Version",
+	"Elements":
+	[
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast_Jun",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast_Sep",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast_Dec",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ForeCast_Mar",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Act vs Budget",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Act vs Budget",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Act vs Budget",
+			"ComponentName":"Budget",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}
