@@ -1,14 +1,14 @@
 {
 	"@type":"Hierarchy",
-	"Name":"Version",
+	"Name":"Product",
 	"Elements":
 	[
 		{
-			"Name":"Actual",
+			"Name":"Product1",
 			"Type":"Numeric"
 		},
 		{
-			"Name":"Forecast",
+			"Name":"Product2",
 			"Type":"Numeric"
 		}
 	],
